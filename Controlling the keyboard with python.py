@@ -6,6 +6,7 @@ keyb = Controller()
 # keyb.press(Key.cmd)
 # keyb.release(Key.cmd)
 
-with keyb.pressed(Key.ctrl, Key.alt):
-    keyb.press('l')
-    keyb.release('pl')
+# with keyb.pressed(Key.ctrl, Key.alt):
+#     keyb.press('l')
+#     keyb.release('pl')
+
