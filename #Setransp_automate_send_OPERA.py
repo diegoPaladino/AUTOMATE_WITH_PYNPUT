@@ -1,6 +1,10 @@
 #Setransp_automate_send builded with OPERA DRIVER
 
 from selenium import webdriver
+from pynput.mouse import Button, Listener
+from pynput.keyboard import Listener, Key
+
+
 
 driver = webdriver.Opera(executable_path='C:\operadriver')
 driver.implicitly_wait(10)
