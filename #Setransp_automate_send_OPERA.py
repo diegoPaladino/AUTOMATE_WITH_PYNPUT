@@ -2,7 +2,7 @@
 
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path='C:\chromedriver')
+driver = webdriver.Opera(executable_path='C:\operadriver')
 driver.implicitly_wait(10)
 
 def login():
