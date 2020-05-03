@@ -22,7 +22,7 @@ import time
 #Mouse and Keyboard Actions
 
 mouse=Controller()
-keyboard=Controller()
+# keyboard=Controller()
 print(mouse.position)
 # mouse.position=(1124,109)
 # mouse.click(Button.left)
