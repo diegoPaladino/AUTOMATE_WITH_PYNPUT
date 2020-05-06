@@ -5,6 +5,9 @@
 #https://www.youtube.com/watch?v=MYQnqyVqCDc    Pynput parte 2 - Controlando o teclado com python
 #https://www.youtube.com/watch?v=2BXr9U6ZL8Y    Simulate Mouse Events in Python
 #https://www.youtube.com/watch?v=DTnz8wA6wpw    Simulate Key Presses in Python
+#https://www.youtube.com/watch?v=wXV3lXtgoRU    Python Keylogger Tutorial - 5 - Control mouse/keyboard using Pynput
+
+# in this last video, was said that is impossible execute mouse and keyboar in the same time.
 
 
 
