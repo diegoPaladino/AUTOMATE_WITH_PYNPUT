@@ -26,5 +26,3 @@ msg = "Hello there, how are you today?"
 
 send_email(subject, msg)
 
-EMAIL_ADDRESS ="diegopaladinoemfrc@gmail.com"
-PASSWORD = "paladino804680"
