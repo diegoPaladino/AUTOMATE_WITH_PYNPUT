@@ -20,4 +20,7 @@ def send_email(subject,msg):
 	except:
 		print("Email failed to send.")
 
-		
+subject = "Test subject"
+msg = "Hello there, how are you today?"
+
+send_email(subject, msg)
