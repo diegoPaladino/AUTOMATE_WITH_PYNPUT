@@ -7,6 +7,7 @@ import smtplib
 
 import config
 
+
 def send_email(subject,msg):
 	try:
 		server = smtplib.SMTP('smtp.gmail.com:587')
@@ -24,3 +25,6 @@ subject = "Test subject"
 msg = "Hello there, how are you today?"
 
 send_email(subject, msg)
+
+EMAIL_ADDRESS ="diegopaladinoemfrc@gmail.com"
+PASSWORD = "paladino804680"
