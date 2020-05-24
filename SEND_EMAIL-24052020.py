@@ -1,13 +1,13 @@
 #link of tutorial: https://www.youtube.com/watch?v=sXjpkcF7rPQ
 
-
+password='paladino804680'
 
 import smtplib
 
 sender_email= "diegopaladinoemfrc@gmail.com"
 rec_email="diegopaladinofoto@gmail.com"
-password=input(str("digite a senha: "))
-message=" texto (0123456789) "
+#password=input(str("digite a senha: "))
+message=" texto 0123456789"
 
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
