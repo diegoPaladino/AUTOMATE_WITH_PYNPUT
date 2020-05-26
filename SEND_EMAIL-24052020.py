@@ -4,17 +4,17 @@
 
 import smtplib
 
-sender_email= "diegopaladinoemfrc@gmail.com"
-rec_email="diegopaladinofoto@gmail.com"
-password='paladino804680'
+sender_email= "diegopaladinofoto@gmail.com"
+rec_email="diegopaladinoemfrc@gmail.com"
+password='Paladio804680'
 #message=" texto 0123456789"
 
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
 server.login(sender_email, password)
 
-subject = 'texto subject'
-body = 'ENTRADA: 12:00'
+subject = 'PONTO DIEGO'
+body = 'SAIDA: 18:00'
 
 msg = f'Subject: {subject}\n\n{body}'
 
