@@ -35,3 +35,6 @@ coll = COLLECT(exe,
                upx=True,
                upx_exclude=[],
                name='SEND_EMAIL-24052020')
+
+
+----
